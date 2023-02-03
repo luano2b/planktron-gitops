@@ -22,4 +22,4 @@ spec:
         ports:
         - containerPort: 8080        
       imagePullSecrets:
-      - name: planktron-test-dapp
+      - name: planktron-github-registry
