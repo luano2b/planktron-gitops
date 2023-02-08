@@ -1,0 +1,32 @@
+# Default values for cp_eks.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+cp_eks:
+  namespace: 7a9da14a-977c-4100-988e-91867007a3b4
+  providerConfigName: 9ecda321-d154-43b8-886d-9eca2f95d3f7
+
+  eks:
+    name: plk-teste
+    region: us-west-1
+    version: "1.23"
+    endpointPrivateAccess: false
+    endpointPublicAccess: true
+
+  network:
+    subnetIds:
+    - "subnet-087d5789096ee5a46"
+    - "subnet-05f163b86b72c723c"
+    - "subnet-0f1e32daf169f8008"
+
+  nodeGroups:
+    - name: ngmgm
+      minSize: 1
+      maxSize: 3
+      desiredSize: 2
+      instanceTypes:
+      - t3.small
+      amiType: AL2_x86_64
+      capacityType: ON_DEMAND
+      labels:
+        nodegroup: management
+        env: dev
