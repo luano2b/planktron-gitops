@@ -1,0 +1,30 @@
+cp_network_aws:
+  name: network-9bd64ee2-4ae7-4626-9008-ad72056fb221
+  namespace: 7a9da14a-977c-4100-988e-91867007a3b4
+
+  providerConfigName: 9ecda321-d154-43b8-886d-9eca2f95d3f7
+
+  network:
+    region: us-west-1
+    name: vpc-9bd64ee2-4ae7-4626-9008-ad72056fb221
+    cidrBlock: 10.10.10.0/24
+    ngw: single
+    subnetPrivate:
+    - cidrBlock: 10.10.10.0/28
+      az: us-west-1b
+    - cidrBlock: 10.10.10.16/28
+      az: us-west-1b
+    - cidrBlock: 10.10.10.32/28
+      az: us-west-1c
+    subnetPublic:
+    - cidrBlock: 10.10.10.48/28
+      az: us-west-1b
+    - cidrBlock: 10.10.10.64/28
+      az: us-west-1b
+    - cidrBlock: 10.10.10.80/28
+      az: us-west-1c
+    eksName: plk-teste2
+
+  tags:
+  - key: "Env"
+    value: plk-teste2
