@@ -14,9 +14,9 @@ cp_eks:
 
   network:
     subnetIds:
-    - "{{subnet-1}}"
-    - "{{subnet-2}}"
-    - "{{subnet-3}}"
+    - "subnet-022b6732a1ec56ffb"
+    - "subnet-0052ba46aa955b9ec"
+    - "subnet-06e66e0ac857e591f"
 
   nodeGroups:
     - name: ngmgm
