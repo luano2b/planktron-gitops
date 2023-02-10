@@ -14,9 +14,9 @@ cp_eks:
 
   network:
     subnetIds:
-    - "{{subnet-1}}"
-    - "{{subnet-2}}"
-    - "{{subnet-3}}"
+    - "subnet-0dd8653959208a54e"
+    - "subnet-07259d3aa3bd32b7e"
+    - "subnet-093466024f8af181e"
 
   nodeGroups:
     - name: ng-sextou-49d15
