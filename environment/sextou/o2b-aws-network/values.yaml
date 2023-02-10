@@ -1,0 +1,30 @@
+cp_network_aws:
+  name: network-49d158d7-877e-4187-8513-3a26fc0dc18e
+  namespace: 7a9da14a-977c-4100-988e-91867007a3b4
+
+  providerConfigName: 9ecda321-d154-43b8-886d-9eca2f95d3f7
+
+  network:
+    region: us-west-1
+    name: vpc-49d158d7-877e-4187-8513-3a26fc0dc18e
+    cidrBlock: 10.10.10.0/24
+    ngw: single
+    subnetPrivate:
+    - cidrBlock: 10.10.10.0/28
+      az: us-west-1b
+    - cidrBlock: 10.10.10.16/28
+      az: us-west-1b
+    - cidrBlock: 10.10.10.32/28
+      az: us-west-1c
+    subnetPublic:
+    - cidrBlock: 10.10.10.48/28
+      az: us-west-1b
+    - cidrBlock: 10.10.10.64/28
+      az: us-west-1b
+    - cidrBlock: 10.10.10.80/28
+      az: us-west-1c
+    eksName: sextou
+
+  tags:
+  - key: "Env"
+    value: sextou
