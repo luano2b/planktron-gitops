@@ -1,6 +1,6 @@
 # SubChart values
 sealed-secrets:
-  ## @section Common parameters test
+  ## @section Common parameters
 
   ## @param kubeVersion Override Kubernetes version
   ##
