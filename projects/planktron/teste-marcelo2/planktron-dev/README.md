@@ -1,5 +1,4 @@
-# Foobar1234445555
-
+# Foobar1234445
 Foobar is a Python library for dealing with word pluralization.
 
 ## Installation
