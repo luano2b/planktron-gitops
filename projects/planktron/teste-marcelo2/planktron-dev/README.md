@@ -1,4 +1,4 @@
-# Foobar12344455537777
+# Foobar
 Foobar is a Python library for dealing with word pluralization...
 
 ## Installation
@@ -32,5 +32,4 @@ to discuss what you would like to change.
 Please make sure to update tests as appropriate.
 
 ## License
-teste123444
 [MIT](https://choosealicense.com/licenses/mit/)
