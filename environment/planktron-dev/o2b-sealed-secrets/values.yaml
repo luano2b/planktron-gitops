@@ -406,3 +406,4 @@ sealed-secrets:
       ## @param metrics.dashboards.namespace Namespace where Grafana dashboard ConfigMap is deployed
       ##
       namespace: ""
+      ##
