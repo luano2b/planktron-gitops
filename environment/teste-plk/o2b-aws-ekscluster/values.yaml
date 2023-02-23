@@ -4,7 +4,7 @@
 cp_eks:
   namespace: 7a9da14a-977c-4100-988e-91867007a3b4
   providerConfigName: 9ecda321-d154-43b8-886d-9eca2f95d3f7
-  uid: 89b551fa-6943-4e13-822a-76728f2101da
+  uid: f811fd3c-e45e-43b3-b4b5-1f2b21ab5943
 
   eks:
     name: teste-plk
@@ -14,7 +14,7 @@ cp_eks:
     endpointPublicAccess: true
 
   nodeGroups:
-    - name: ng-teste-plk-89b55
+    - name: ng-teste-plk-f811f
       minSize: 1
       maxSize: 3
       desiredSize: 2
