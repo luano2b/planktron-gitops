@@ -1,13 +1,13 @@
 cp_network_aws:
-  name: network-1595b209-d822-4eab-88fa-2cdd5b8a3c8e
+  name: network-4b11578b-af55-476d-9058-94f41930671f
   namespace: 7a9da14a-977c-4100-988e-91867007a3b4
-  uid: 1595b209-d822-4eab-88fa-2cdd5b8a3c8e
+  uid: 4b11578b-af55-476d-9058-94f41930671f
 
   providerConfigName: 9ecda321-d154-43b8-886d-9eca2f95d3f7
 
   network:
     region: us-west-1
-    name: vpc-1595b209-d822-4eab-88fa-2cdd5b8a3c8e
+    name: vpc-4b11578b-af55-476d-9058-94f41930671f
     cidrBlock: 10.10.10.0/24
     ngw: single
     subnetPrivate:
