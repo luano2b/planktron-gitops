@@ -25,5 +25,5 @@ appVersion: "0.1.0"
 
 dependencies:
 - name: cp_eks
-  version: "0.4.1"
+  version: "0.5.0"
   repository: https://harbor.in.o2b.io/chartrepo/planktron
